@@ -1,0 +1,22 @@
+artifact_path: /Users/nupur/Desktop/personal/BITS/sem 3/MlOps/assignment1/MLOps-Group-42/mlflow_artifacts/0/models/m-410c66f864ce4144b3f787dfe4e36501/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.2.0
+model_id: m-410c66f864ce4144b3f787dfe4e36501
+model_size_bytes: 1000
+model_uuid: m-410c66f864ce4144b3f787dfe4e36501
+prompts: null
+run_id: 5a2f7e22ddcc4869937f066d85e2f84f
+utc_time_created: '2025-08-10 13:03:40.355153'
