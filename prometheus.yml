@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: 'mlops_api'
+    static_configs:
+      - targets: ['host.containers.internal:8000']  # Podman equivalent of host.docker.internal
